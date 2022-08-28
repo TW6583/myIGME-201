@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquashTheBugs", "SquashTheBugs\SquashTheBugs.csproj", "{09675852-C453-4B3C-98C5-6A0759DB0B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09675852-C453-4B3C-98C5-6A0759DB0B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09675852-C453-4B3C-98C5-6A0759DB0B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09675852-C453-4B3C-98C5-6A0759DB0B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09675852-C453-4B3C-98C5-6A0759DB0B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8DE015A-6E00-4004-9E14-D47F63BCDA79}
+	EndGlobalSection
+EndGlobal
