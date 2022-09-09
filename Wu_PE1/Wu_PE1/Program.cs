@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// PE1 grade: 40
+
+
 namespace HelloWorld
 {
     internal class Program
