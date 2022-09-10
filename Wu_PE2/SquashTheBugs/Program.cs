@@ -6,6 +6,10 @@ namespace SquashTheBugs
     // Author: David Schuh
     // Purpose: Bug squashing exercise
     // Restrictions: None
+
+    //PE2 GRADE: 100
+
+
     class Program
     {
         // Method: Main
