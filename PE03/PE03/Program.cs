@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//PE3 GRADE:    70.67
+
 namespace PE03
 {
     internal class Program
