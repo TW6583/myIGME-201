@@ -6,6 +6,8 @@ namespace Mandelbrot
     /// This class generates Mandelbrot sets in the console window!
     /// </summary>
 
+    //PE4 FINAL GRADE: 80
+
 
     class Class1
     {
