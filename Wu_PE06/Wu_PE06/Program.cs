@@ -8,6 +8,8 @@ namespace Wu_PE06
 {
     internal class Program
     {
+
+        //PE6 GRADE: 80
         static void Main(string[] args)
         {
             Random rand = new Random();
