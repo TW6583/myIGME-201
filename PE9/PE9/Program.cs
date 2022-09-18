@@ -204,6 +204,9 @@ namespace PE9
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("I'm sorry {0}. The answer is {1}", myName, nAnswer);
+                    aTimer.Stop();
+                    aTimer.Start();
+                    secondsCounter = 0;
                 }
                 else
                 {
@@ -211,6 +214,9 @@ namespace PE9
                     Console.ForegroundColor = ConsoleColor.Magenta;
                     Console.WriteLine("Well done, {0}!!!", myName);
 
+                    aTimer.Stop();
+                    aTimer.Start();
+                    secondsCounter = 0;
                     ++nCorrect;
                 }
                 
