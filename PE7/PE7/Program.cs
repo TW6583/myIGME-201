@@ -9,6 +9,9 @@ namespace PE7
 {
     internal class Program
     {
+        
+        //PE7 GRADE: 90
+
         static void Main(string[] args)
         {
             //For the final story
