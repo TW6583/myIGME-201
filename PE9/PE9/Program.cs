@@ -10,7 +10,7 @@ namespace PE9
 {
     internal class Program
     {
-
+        //PE9 GRADE: 60
         private static System.Timers.Timer aTimer;
         public static int secondsCounter = 0;
         static void Main(string[] args)
