@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            string s = "hello";
-            char[] charArray = s.ToCharArray();
-            Array.Reverse(charArray);
-            Console.WriteLine(charArray);
+            byte byteVal;
+            short shortVal = -556;
+            byteVal = checked((byte)shortVal);
+            Console.WriteLine("byteVal = {0}", byteVal);
         }
     }
 }
