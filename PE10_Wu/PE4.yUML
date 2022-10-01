@@ -1,0 +1,19 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+// [Customer]++*-*>[Order]
+// [Order]++*-*>[LineItem]
+// [Order]-1>[DeliveryMethod]
+// [Order]*-*>[Product|EAN_Code;Description;ListPrice|promo_price()]
+// [Category]<->[Product]
+// [DeliveryMethod]^[National]
+// [DeliveryMethod]^[International]
+
+[+A:HotDrink|+Milk:bool;+Sugar:byte|+Drink:bool;+AddMilk:byte;+AddSugar:byte]
+[+ICup|+Color:string;+Volume:double|+Refill:bool;+Wash:bool]
+
+[+A:HotDrink]^[+CupOfCoffee|+BeanType:string]
+[+A:HotDrink]^[+CupOfTea|+LeafType:string]
+[+ICup]<->[+CupOfCoffee]
+[+ICup]<->[+CupOfTea]
