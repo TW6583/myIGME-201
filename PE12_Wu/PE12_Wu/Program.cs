@@ -15,10 +15,7 @@ namespace PE12_Wu
             {
                 set { myString = MyString; }
             }
-            public string returnedString
-            {
-                get { return MyString; }
-            }
+
             public virtual string GetString()
             {
                 return MyString;
