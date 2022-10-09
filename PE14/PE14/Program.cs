@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.Remoting.Messaging;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,7 +48,10 @@ namespace PE14
 
         public string strInterface()
         {
-            return this.nOne + this.nTwo + ": is the sum";
+            string sumNums;
+            Console.WriteLine(this.nOne + this.nTwo + " is the sum");
+            sumNums = Console.ReadLine();
+            return sumNums;
         }
     }
 
@@ -58,7 +63,10 @@ namespace PE14
 
         public string strInterface()
         {
-            return this.strOne + " " + this.strTwo;
+            string combinedString;
+            Console.WriteLine(this.strOne + " " + this.strTwo);
+            combinedString = Console.ReadLine();
+            return combinedString;
         }
     }
 
@@ -66,8 +74,27 @@ namespace PE14
 
     internal class Program
     {
+        //PE14 Q3
+        //calls an anInterface object's strInterface()
+        public static void MyMethod(anInterface myObject)
+        {
+            myObject.strInterface();
+        }
         static void Main(string[] args)
         {
+            //Creates an object from each class
+            addingNums addingNums = new addingNums();
+            combineStrings combineStrings = new combineStrings();
+            //sets the numbers
+            addingNums.nOne = 3;
+            addingNums.nTwo = 6;
+            //sets the strings
+            combineStrings.strOne = "Hello there.";
+            combineStrings.strTwo = "Hello to you too.";
+            //calls the .strInterface() method in each class
+            MyMethod(addingNums);
+            MyMethod(combineStrings); 
+
         }
     }
 }
