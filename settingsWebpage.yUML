@@ -1,0 +1,8 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[+ISettings|+darkTheme:bool;+fontSize:int]
+[+Settings|darkTheme:bool;+fontSize:int|+bDark();+fontSize()]
+
+[+ISettings]^[+Settings]
