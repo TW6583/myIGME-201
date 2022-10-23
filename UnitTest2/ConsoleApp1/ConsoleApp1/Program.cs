@@ -113,7 +113,24 @@ namespace ConsoleApp1
 
         }
 
-       
+        //Quesstion 5
+
+        public static bool operator >(Tardis DrTen, Tardis DrNine)
+        {
+            return (DrTen.whichDrWho > DrNine.whichDrWho);
+        }
+        public static bool operator >=(Tardis DrNine, Tardis DrEight)
+        {
+            return (DrNine.whichDrWho >= DrEight.whichDrWho) || (DrNine.whichDrWho == DrEight.whichDrWho);
+        }
+        public static bool operator <=(Tardis DrEight, Tardis DrSeven)
+        {
+            return (DrSeven.whichDrWho <= DrEight.whichDrWho);
+        }
+        public static bool operator <(Tardis DrSeven, Tardis DrSix)
+        {
+            return (DrSix.whichDrWho < DrSeven.whichDrWho);
+        }
     }
 
     public class PhoneBooth : PushBottonPhone
