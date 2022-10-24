@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
@@ -131,6 +132,14 @@ namespace ConsoleApp1
         {
             return (DrSix.whichDrWho < DrSeven.whichDrWho);
         }
+
+        //Question 6
+
+        static void UsePhone(object obj)
+        {
+            //base.MakeCall();
+            
+        }
     }
 
     public class PhoneBooth : PushBottonPhone
@@ -148,6 +157,7 @@ namespace ConsoleApp1
         {
 
         }
+
     }
 
 
@@ -155,7 +165,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
+            Tardis DrTen = new Tardis();
+            Tardis DrNine = new Tardis();
+            Tardis DrEight = new Tardis();
+            Tardis DrSeven = new Tardis();
+            Tardis DrSix = new Tardis();
+            Tardis DrFive = new Tardis();
+            Tardis DrFour = new Tardis();
+            Tardis DrThree = new Tardis();
+            Tardis DrTwo = new Tardis();
+            Tardis DrOne = new Tardis();
+
+            DrTen.WhichDrWho;   
+
         }
     }
 }

@@ -1,0 +1,14 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[+I:SkateboardInterface|Stationery();Balancing();Pushing()]
+[+A:Skateboard|+wheelType:string;+wheelSize:int;+trucksBrand:string;+isStationery:bool|+Stationery():bool:v;+Balancing():a;Pushing():a]
+[+Cruising|+balancingOnly:bool|+Balancing():o;+Pushing():o;Speed():int]
+[+Ollie|+olliePosition:bool|+Balancing():o;+Pushing():o;+boardPopped():bool;+footDragFlicked():bool;+successfulOllie()]
+
+[+A:Skateboard] <-.- [+Cruising]
+[+A:Skateboard] <-.- [+Ollie]
+
+[+I:SkateboardInterface] ^ [+Cruising]
+[+I:SkateboardInterface] ^ [+Ollie] 
