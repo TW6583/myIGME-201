@@ -380,6 +380,7 @@
             // 
             // filterGroupBox
             // 
+            this.filterGroupBox.BackColor = System.Drawing.Color.White;
             this.filterGroupBox.Controls.Add(this.federalistRadioButton);
             this.filterGroupBox.Controls.Add(this.democratRepublicanRadioButton);
             this.filterGroupBox.Controls.Add(this.republicanRadioButton);
@@ -404,46 +405,51 @@
             // federalistRadioButton
             // 
             this.federalistRadioButton.AutoSize = true;
+            this.federalistRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.federalistRadioButton.Location = new System.Drawing.Point(15, 111);
             this.federalistRadioButton.Name = "federalistRadioButton";
             this.federalistRadioButton.Size = new System.Drawing.Size(70, 17);
             this.federalistRadioButton.TabIndex = 34;
             this.federalistRadioButton.Text = "Federalist";
-            this.federalistRadioButton.UseVisualStyleBackColor = true;
+            this.federalistRadioButton.UseVisualStyleBackColor = false;
             // 
             // democratRepublicanRadioButton
             // 
             this.democratRepublicanRadioButton.AutoSize = true;
+            this.democratRepublicanRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.democratRepublicanRadioButton.Location = new System.Drawing.Point(15, 88);
             this.democratRepublicanRadioButton.Name = "democratRepublicanRadioButton";
             this.democratRepublicanRadioButton.Size = new System.Drawing.Size(136, 17);
             this.democratRepublicanRadioButton.TabIndex = 35;
             this.democratRepublicanRadioButton.Text = "Democratic-Republican";
-            this.democratRepublicanRadioButton.UseVisualStyleBackColor = true;
+            this.democratRepublicanRadioButton.UseVisualStyleBackColor = false;
             // 
             // republicanRadioButton
             // 
             this.republicanRadioButton.AutoSize = true;
+            this.republicanRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.republicanRadioButton.Location = new System.Drawing.Point(15, 65);
             this.republicanRadioButton.Name = "republicanRadioButton";
             this.republicanRadioButton.Size = new System.Drawing.Size(79, 17);
             this.republicanRadioButton.TabIndex = 36;
             this.republicanRadioButton.Text = "Republican";
-            this.republicanRadioButton.UseVisualStyleBackColor = true;
+            this.republicanRadioButton.UseVisualStyleBackColor = false;
             // 
             // democratRadioButton
             // 
             this.democratRadioButton.AutoSize = true;
+            this.democratRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.democratRadioButton.Location = new System.Drawing.Point(15, 42);
             this.democratRadioButton.Name = "democratRadioButton";
             this.democratRadioButton.Size = new System.Drawing.Size(71, 17);
             this.democratRadioButton.TabIndex = 37;
             this.democratRadioButton.Text = "Democrat";
-            this.democratRadioButton.UseVisualStyleBackColor = true;
+            this.democratRadioButton.UseVisualStyleBackColor = false;
             // 
             // allRadioButton
             // 
             this.allRadioButton.AutoSize = true;
+            this.allRadioButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.allRadioButton.Checked = true;
             this.allRadioButton.Location = new System.Drawing.Point(15, 19);
             this.allRadioButton.Name = "allRadioButton";
@@ -451,7 +457,7 @@
             this.allRadioButton.TabIndex = 38;
             this.allRadioButton.TabStop = true;
             this.allRadioButton.Text = "All";
-            this.allRadioButton.UseVisualStyleBackColor = true;
+            this.allRadioButton.UseVisualStyleBackColor = false;
             // 
             // statusStrip1
             // 
@@ -496,6 +502,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(1007, 597);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
