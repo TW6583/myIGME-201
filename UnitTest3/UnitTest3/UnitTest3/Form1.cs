@@ -401,22 +401,22 @@ namespace UnitTest3
         private void BarackObamaButton__CheckedChanged(object sender, EventArgs e)
         {
             this.pictureBox1.Image = Properties.Resources.BarackObama;
-            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/Barack_Obama";
-            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/Barack_Obama");
+            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/Michelle_Obama";
+            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/Michelle_Obama");
         }
 
         private void JohnFKennedyButton__CheckedChanged(object sender, EventArgs e)
         {
             this.pictureBox1.Image = Properties.Resources.JohnFKennedy;
-            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/John_F._Kennedy";
-            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/John_F._Kennedy");
+            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/John_F._Kennedy_International_Airport";
+            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/John_F._Kennedy_International_Airport");
         }
 
         private void WilliamMcKinleyButton__CheckedChanged(object sender, EventArgs e)
         {
             this.pictureBox1.Image = Properties.Resources.WilliamMcKinley;
-            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/William_McKinley";
-            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/William_McKinley");
+            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/William_McKinley_Sr.";
+            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/William_McKinley_Sr.");
         }
 
         private void RonaldReaganButton__CheckedChanged(object sender, EventArgs e)
@@ -443,8 +443,8 @@ namespace UnitTest3
         private void GeorgeWashingtonButton__CheckedChanged(object sender, EventArgs e)
         {
             this.pictureBox1.Image = Properties.Resources.GeorgeWashington;
-            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/George_Washington";
-            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/George_Washington");
+            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/George_Washington_Carver";
+            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/George_Washington_Carver");
         }
 
         private void JohnAdamsButton__CheckedChanged(object sender, EventArgs e)
@@ -457,8 +457,8 @@ namespace UnitTest3
         private void TheodoreRooseveltButton__CheckedChanged(object sender, EventArgs e)
         {
             this.pictureBox1.Image = Properties.Resources.TheodoreRoosevelt;
-            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/Theodore__Roosevelt";
-            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/Theodore__Roosevelt");
+            this.presidentGroupBox.Text = "https://en.m.wikipedia.org/wiki/Teddy_Bear";
+            this.webBrowser1.Navigate("https://en.m.wikipedia.org/wiki/Teddy_Bear");
         }
 
         private void ThomasJeffersonButton__CheckedChanged(object sender, EventArgs e)
@@ -587,16 +587,16 @@ namespace UnitTest3
         {
             PictureBox pb = (PictureBox)sender;
 
-            pb.Height *= 2;
-            pb.Width *= 2;
+            pb.Height *= 3;
+            pb.Width *= 3;
         }
 
         private void PictureBox1__MouseLeave(object sender, EventArgs e)
         {
             PictureBox pb = (PictureBox)sender;
 
-            pb.Height /= 2;
-            pb.Width /= 2;
+            pb.Height /= 4;
+            pb.Width /= 4;
         }
 
         private void ExitButton__Click(object sender, EventArgs e)

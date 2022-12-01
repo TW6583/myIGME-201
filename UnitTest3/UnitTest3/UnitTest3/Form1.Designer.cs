@@ -83,7 +83,7 @@
             // benjaminHarrisonButton
             // 
             this.benjaminHarrisonButton.AutoSize = true;
-            this.benjaminHarrisonButton.Location = new System.Drawing.Point(12, 12);
+            this.benjaminHarrisonButton.Location = new System.Drawing.Point(12, 162);
             this.benjaminHarrisonButton.Name = "benjaminHarrisonButton";
             this.benjaminHarrisonButton.Size = new System.Drawing.Size(110, 17);
             this.benjaminHarrisonButton.TabIndex = 0;
@@ -93,7 +93,7 @@
             // franklinDRooseveltButton
             // 
             this.franklinDRooseveltButton.AutoSize = true;
-            this.franklinDRooseveltButton.Location = new System.Drawing.Point(12, 35);
+            this.franklinDRooseveltButton.Location = new System.Drawing.Point(21, 107);
             this.franklinDRooseveltButton.Name = "franklinDRooseveltButton";
             this.franklinDRooseveltButton.Size = new System.Drawing.Size(124, 17);
             this.franklinDRooseveltButton.TabIndex = 1;
@@ -103,7 +103,7 @@
             // williamJClintonButton
             // 
             this.williamJClintonButton.AutoSize = true;
-            this.williamJClintonButton.Location = new System.Drawing.Point(12, 58);
+            this.williamJClintonButton.Location = new System.Drawing.Point(-4, 124);
             this.williamJClintonButton.Name = "williamJClintonButton";
             this.williamJClintonButton.Size = new System.Drawing.Size(101, 17);
             this.williamJClintonButton.TabIndex = 2;
@@ -113,7 +113,7 @@
             // jamesBuchananButton
             // 
             this.jamesBuchananButton.AutoSize = true;
-            this.jamesBuchananButton.Location = new System.Drawing.Point(12, 81);
+            this.jamesBuchananButton.Location = new System.Drawing.Point(96, 264);
             this.jamesBuchananButton.Name = "jamesBuchananButton";
             this.jamesBuchananButton.Size = new System.Drawing.Size(107, 17);
             this.jamesBuchananButton.TabIndex = 3;
@@ -123,7 +123,7 @@
             // franklinPierceButton
             // 
             this.franklinPierceButton.AutoSize = true;
-            this.franklinPierceButton.Location = new System.Drawing.Point(12, 104);
+            this.franklinPierceButton.Location = new System.Drawing.Point(216, 57);
             this.franklinPierceButton.Name = "franklinPierceButton";
             this.franklinPierceButton.Size = new System.Drawing.Size(95, 17);
             this.franklinPierceButton.TabIndex = 4;
@@ -133,7 +133,7 @@
             // georgeWBushButton
             // 
             this.georgeWBushButton.AutoSize = true;
-            this.georgeWBushButton.Location = new System.Drawing.Point(12, 127);
+            this.georgeWBushButton.Location = new System.Drawing.Point(216, 80);
             this.georgeWBushButton.Name = "georgeWBushButton";
             this.georgeWBushButton.Size = new System.Drawing.Size(101, 17);
             this.georgeWBushButton.TabIndex = 5;
@@ -143,7 +143,7 @@
             // barackObamaButton
             // 
             this.barackObamaButton.AutoSize = true;
-            this.barackObamaButton.Location = new System.Drawing.Point(12, 150);
+            this.barackObamaButton.Location = new System.Drawing.Point(825, 509);
             this.barackObamaButton.Name = "barackObamaButton";
             this.barackObamaButton.Size = new System.Drawing.Size(96, 17);
             this.barackObamaButton.TabIndex = 6;
@@ -153,7 +153,7 @@
             // johnFKennedyButton
             // 
             this.johnFKennedyButton.AutoSize = true;
-            this.johnFKennedyButton.Location = new System.Drawing.Point(12, 173);
+            this.johnFKennedyButton.Location = new System.Drawing.Point(825, 532);
             this.johnFKennedyButton.Name = "johnFKennedyButton";
             this.johnFKennedyButton.Size = new System.Drawing.Size(102, 17);
             this.johnFKennedyButton.TabIndex = 7;
@@ -163,7 +163,7 @@
             // thomasJeffersonButton
             // 
             this.thomasJeffersonButton.AutoSize = true;
-            this.thomasJeffersonButton.Location = new System.Drawing.Point(179, 173);
+            this.thomasJeffersonButton.Location = new System.Drawing.Point(653, 422);
             this.thomasJeffersonButton.Name = "thomasJeffersonButton";
             this.thomasJeffersonButton.Size = new System.Drawing.Size(109, 17);
             this.thomasJeffersonButton.TabIndex = 15;
@@ -173,7 +173,7 @@
             // theodoreRooseveltButton
             // 
             this.theodoreRooseveltButton.AutoSize = true;
-            this.theodoreRooseveltButton.Location = new System.Drawing.Point(179, 150);
+            this.theodoreRooseveltButton.Location = new System.Drawing.Point(12, 547);
             this.theodoreRooseveltButton.Name = "theodoreRooseveltButton";
             this.theodoreRooseveltButton.Size = new System.Drawing.Size(122, 17);
             this.theodoreRooseveltButton.TabIndex = 14;
@@ -183,7 +183,7 @@
             // johnAdamsButton
             // 
             this.johnAdamsButton.AutoSize = true;
-            this.johnAdamsButton.Location = new System.Drawing.Point(179, 127);
+            this.johnAdamsButton.Location = new System.Drawing.Point(12, 524);
             this.johnAdamsButton.Name = "johnAdamsButton";
             this.johnAdamsButton.Size = new System.Drawing.Size(83, 17);
             this.johnAdamsButton.TabIndex = 13;
@@ -193,7 +193,7 @@
             // georgeWashingtonButton
             // 
             this.georgeWashingtonButton.AutoSize = true;
-            this.georgeWashingtonButton.Location = new System.Drawing.Point(179, 104);
+            this.georgeWashingtonButton.Location = new System.Drawing.Point(74, 336);
             this.georgeWashingtonButton.Name = "georgeWashingtonButton";
             this.georgeWashingtonButton.Size = new System.Drawing.Size(120, 17);
             this.georgeWashingtonButton.TabIndex = 12;
@@ -203,7 +203,7 @@
             // martinVanBurenButton
             // 
             this.martinVanBurenButton.AutoSize = true;
-            this.martinVanBurenButton.Location = new System.Drawing.Point(179, 81);
+            this.martinVanBurenButton.Location = new System.Drawing.Point(74, 313);
             this.martinVanBurenButton.Name = "martinVanBurenButton";
             this.martinVanBurenButton.Size = new System.Drawing.Size(104, 17);
             this.martinVanBurenButton.TabIndex = 11;
@@ -213,7 +213,7 @@
             // dwightDEisenhowerButton
             // 
             this.dwightDEisenhowerButton.AutoSize = true;
-            this.dwightDEisenhowerButton.Location = new System.Drawing.Point(179, 58);
+            this.dwightDEisenhowerButton.Location = new System.Drawing.Point(383, 547);
             this.dwightDEisenhowerButton.Name = "dwightDEisenhowerButton";
             this.dwightDEisenhowerButton.Size = new System.Drawing.Size(127, 17);
             this.dwightDEisenhowerButton.TabIndex = 10;
@@ -223,7 +223,7 @@
             // ronaldReaganButton
             // 
             this.ronaldReaganButton.AutoSize = true;
-            this.ronaldReaganButton.Location = new System.Drawing.Point(179, 35);
+            this.ronaldReaganButton.Location = new System.Drawing.Point(188, 107);
             this.ronaldReaganButton.Name = "ronaldReaganButton";
             this.ronaldReaganButton.Size = new System.Drawing.Size(100, 17);
             this.ronaldReaganButton.TabIndex = 9;
@@ -233,7 +233,7 @@
             // williamMcKinleyButton
             // 
             this.williamMcKinleyButton.AutoSize = true;
-            this.williamMcKinleyButton.Location = new System.Drawing.Point(179, 12);
+            this.williamMcKinleyButton.Location = new System.Drawing.Point(179, 162);
             this.williamMcKinleyButton.Name = "williamMcKinleyButton";
             this.williamMcKinleyButton.Size = new System.Drawing.Size(104, 17);
             this.williamMcKinleyButton.TabIndex = 8;
@@ -242,7 +242,7 @@
             // 
             // harrisonTextBox
             // 
-            this.harrisonTextBox.Location = new System.Drawing.Point(149, 11);
+            this.harrisonTextBox.Location = new System.Drawing.Point(149, 161);
             this.harrisonTextBox.Name = "harrisonTextBox";
             this.harrisonTextBox.Size = new System.Drawing.Size(24, 20);
             this.harrisonTextBox.TabIndex = 16;
@@ -250,7 +250,7 @@
             // 
             // franklinDRooseveltTextBox
             // 
-            this.franklinDRooseveltTextBox.Location = new System.Drawing.Point(149, 34);
+            this.franklinDRooseveltTextBox.Location = new System.Drawing.Point(158, 106);
             this.franklinDRooseveltTextBox.Name = "franklinDRooseveltTextBox";
             this.franklinDRooseveltTextBox.Size = new System.Drawing.Size(24, 20);
             this.franklinDRooseveltTextBox.TabIndex = 17;
@@ -258,7 +258,7 @@
             // 
             // buchananTextBox
             // 
-            this.buchananTextBox.Location = new System.Drawing.Point(149, 80);
+            this.buchananTextBox.Location = new System.Drawing.Point(233, 263);
             this.buchananTextBox.Name = "buchananTextBox";
             this.buchananTextBox.Size = new System.Drawing.Size(24, 20);
             this.buchananTextBox.TabIndex = 19;
@@ -266,7 +266,7 @@
             // 
             // clintonTextBox
             // 
-            this.clintonTextBox.Location = new System.Drawing.Point(149, 57);
+            this.clintonTextBox.Location = new System.Drawing.Point(133, 123);
             this.clintonTextBox.Name = "clintonTextBox";
             this.clintonTextBox.Size = new System.Drawing.Size(24, 20);
             this.clintonTextBox.TabIndex = 18;
@@ -274,7 +274,7 @@
             // 
             // kennedyTextBox
             // 
-            this.kennedyTextBox.Location = new System.Drawing.Point(149, 173);
+            this.kennedyTextBox.Location = new System.Drawing.Point(962, 532);
             this.kennedyTextBox.Name = "kennedyTextBox";
             this.kennedyTextBox.Size = new System.Drawing.Size(24, 20);
             this.kennedyTextBox.TabIndex = 23;
@@ -282,7 +282,7 @@
             // 
             // obamaTextBox
             // 
-            this.obamaTextBox.Location = new System.Drawing.Point(149, 150);
+            this.obamaTextBox.Location = new System.Drawing.Point(962, 509);
             this.obamaTextBox.Name = "obamaTextBox";
             this.obamaTextBox.Size = new System.Drawing.Size(24, 20);
             this.obamaTextBox.TabIndex = 22;
@@ -290,7 +290,7 @@
             // 
             // bushTextBox
             // 
-            this.bushTextBox.Location = new System.Drawing.Point(149, 127);
+            this.bushTextBox.Location = new System.Drawing.Point(353, 80);
             this.bushTextBox.Name = "bushTextBox";
             this.bushTextBox.Size = new System.Drawing.Size(24, 20);
             this.bushTextBox.TabIndex = 21;
@@ -298,7 +298,7 @@
             // 
             // pierceTextBox
             // 
-            this.pierceTextBox.Location = new System.Drawing.Point(149, 104);
+            this.pierceTextBox.Location = new System.Drawing.Point(353, 57);
             this.pierceTextBox.Name = "pierceTextBox";
             this.pierceTextBox.Size = new System.Drawing.Size(24, 20);
             this.pierceTextBox.TabIndex = 20;
@@ -306,7 +306,7 @@
             // 
             // jeffersonTextBox
             // 
-            this.jeffersonTextBox.Location = new System.Drawing.Point(321, 173);
+            this.jeffersonTextBox.Location = new System.Drawing.Point(768, 422);
             this.jeffersonTextBox.Name = "jeffersonTextBox";
             this.jeffersonTextBox.Size = new System.Drawing.Size(24, 20);
             this.jeffersonTextBox.TabIndex = 31;
@@ -314,7 +314,7 @@
             // 
             // theodoreRooseveltTextBox
             // 
-            this.theodoreRooseveltTextBox.Location = new System.Drawing.Point(321, 150);
+            this.theodoreRooseveltTextBox.Location = new System.Drawing.Point(154, 547);
             this.theodoreRooseveltTextBox.Name = "theodoreRooseveltTextBox";
             this.theodoreRooseveltTextBox.Size = new System.Drawing.Size(24, 20);
             this.theodoreRooseveltTextBox.TabIndex = 30;
@@ -322,7 +322,7 @@
             // 
             // adamsTextBox
             // 
-            this.adamsTextBox.Location = new System.Drawing.Point(321, 127);
+            this.adamsTextBox.Location = new System.Drawing.Point(154, 524);
             this.adamsTextBox.Name = "adamsTextBox";
             this.adamsTextBox.Size = new System.Drawing.Size(24, 20);
             this.adamsTextBox.TabIndex = 29;
@@ -330,7 +330,7 @@
             // 
             // washingtonTextBox
             // 
-            this.washingtonTextBox.Location = new System.Drawing.Point(321, 104);
+            this.washingtonTextBox.Location = new System.Drawing.Point(216, 336);
             this.washingtonTextBox.Name = "washingtonTextBox";
             this.washingtonTextBox.Size = new System.Drawing.Size(24, 20);
             this.washingtonTextBox.TabIndex = 28;
@@ -338,7 +338,7 @@
             // 
             // vanBurenTextBox
             // 
-            this.vanBurenTextBox.Location = new System.Drawing.Point(321, 80);
+            this.vanBurenTextBox.Location = new System.Drawing.Point(216, 312);
             this.vanBurenTextBox.Name = "vanBurenTextBox";
             this.vanBurenTextBox.Size = new System.Drawing.Size(24, 20);
             this.vanBurenTextBox.TabIndex = 27;
@@ -346,7 +346,7 @@
             // 
             // eisenhowerTextBox
             // 
-            this.eisenhowerTextBox.Location = new System.Drawing.Point(321, 57);
+            this.eisenhowerTextBox.Location = new System.Drawing.Point(525, 546);
             this.eisenhowerTextBox.Name = "eisenhowerTextBox";
             this.eisenhowerTextBox.Size = new System.Drawing.Size(24, 20);
             this.eisenhowerTextBox.TabIndex = 26;
@@ -354,7 +354,7 @@
             // 
             // reaganTextBox
             // 
-            this.reaganTextBox.Location = new System.Drawing.Point(321, 34);
+            this.reaganTextBox.Location = new System.Drawing.Point(330, 106);
             this.reaganTextBox.Name = "reaganTextBox";
             this.reaganTextBox.Size = new System.Drawing.Size(24, 20);
             this.reaganTextBox.TabIndex = 25;
@@ -362,7 +362,7 @@
             // 
             // mcKinleyTextBox
             // 
-            this.mcKinleyTextBox.Location = new System.Drawing.Point(321, 11);
+            this.mcKinleyTextBox.Location = new System.Drawing.Point(321, 161);
             this.mcKinleyTextBox.Name = "mcKinleyTextBox";
             this.mcKinleyTextBox.Size = new System.Drawing.Size(24, 20);
             this.mcKinleyTextBox.TabIndex = 24;
@@ -371,9 +371,9 @@
             // presidentGroupBox
             // 
             this.presidentGroupBox.Controls.Add(this.webBrowser1);
-            this.presidentGroupBox.Location = new System.Drawing.Point(351, 12);
+            this.presidentGroupBox.Location = new System.Drawing.Point(378, 38);
             this.presidentGroupBox.Name = "presidentGroupBox";
-            this.presidentGroupBox.Size = new System.Drawing.Size(633, 509);
+            this.presidentGroupBox.Size = new System.Drawing.Size(269, 509);
             this.presidentGroupBox.TabIndex = 32;
             this.presidentGroupBox.TabStop = false;
             this.presidentGroupBox.Text = "groupBox1";
@@ -385,18 +385,18 @@
             this.filterGroupBox.Controls.Add(this.republicanRadioButton);
             this.filterGroupBox.Controls.Add(this.democratRadioButton);
             this.filterGroupBox.Controls.Add(this.allRadioButton);
-            this.filterGroupBox.Location = new System.Drawing.Point(188, 199);
+            this.filterGroupBox.Location = new System.Drawing.Point(653, 38);
             this.filterGroupBox.Name = "filterGroupBox";
-            this.filterGroupBox.Size = new System.Drawing.Size(157, 143);
+            this.filterGroupBox.Size = new System.Drawing.Size(256, 378);
             this.filterGroupBox.TabIndex = 0;
             this.filterGroupBox.TabStop = false;
             this.filterGroupBox.Text = "Filter";
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(909, 550);
+            this.exitButton.Location = new System.Drawing.Point(811, 541);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.Size = new System.Drawing.Size(176, 30);
             this.exitButton.TabIndex = 33;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -481,7 +481,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::UnitTest3.Properties.Resources.BenjaminHarrison;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 196);
+            this.pictureBox1.Location = new System.Drawing.Point(188, 348);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(151, 214);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
