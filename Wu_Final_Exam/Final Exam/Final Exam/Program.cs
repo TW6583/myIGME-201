@@ -58,25 +58,25 @@ namespace Final_Exam
         {
                             //Red     Blue     Yellow     Gray     Light Blue     Orange     Purple     Green
             /* Red */       {false    ,true    ,false     ,true    ,false         ,false     ,false     ,false},
-            /* Blue */      {true     ,false   ,true      ,false   ,true          ,false     ,false     ,false},
-            /* Yellow */    {false    ,true    ,false     ,false   ,false         ,false     ,true      ,true },
-            /* Gray */      {true     ,false   ,false     ,false   ,true          ,true      ,false     ,false},
+            /* Blue */      {false    ,false   ,true      ,false   ,true          ,false     ,false     ,false},
+            /* Yellow */    {false    ,false   ,false     ,false   ,false         ,false     ,false     ,true },
+            /* Gray */      {false    ,false   ,false     ,false   ,true          ,true      ,false     ,false},
             /* Light Blue */{false    ,true    ,false     ,true    ,false         ,false     ,false     ,false},
-            /* Orange */    {false    ,false   ,false     ,true    ,false         ,false     ,true      ,false},
-            /* Purple */    {false    ,false   ,true      ,false   ,false         ,true      ,false     ,false},
-            /* Green */     {false    ,false   ,true      ,false   ,false         ,false     ,false     ,false},
+            /* Orange */    {false    ,false   ,false     ,false   ,false         ,false     ,true      ,false},
+            /* Purple */    {false    ,false   ,true      ,false   ,false         ,false     ,false     ,false},
+            /* Green */     {false    ,false   ,false     ,false   ,false         ,false     ,false     ,false},
         };
 
         static int[][] lGraph = new int[][]
         {
             /* Red */ new int[] {1, 3},
-            /* Blue */ new int[] {0, 2, 4},
-            /* Yellow */ new int[] {1, 6},
-            /* Gray */ new int[] {0, 4, 5 },
-            /* Light Blue */ new int[] {1, 3 },
-            /* Orange */ new int[] {3, 5 },
-            /* Purple */ new int[] {2, 5 },
-            /* Green */ new int[] {2 },
+            /* Blue */ new int[] {2, 4},
+            /* Yellow */ new int[] {7},
+            /* Gray */ new int[] {4, 5},
+            /* Light Blue */ new int[] {1, 3},
+            /* Orange */ new int[] {6},
+            /* Purple */ new int[] {2},
+            /* Green */ null,
         };
 
         static void Main(string[] args)
