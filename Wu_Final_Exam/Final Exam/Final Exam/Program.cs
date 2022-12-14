@@ -79,6 +79,84 @@ namespace Final_Exam
             /* Green */ null,
         };
 
+        //Question 4
+
+        static bool bWaitingForMove = false;
+        static Object lockObject = new Object();
+        static int nState = 0;
+        static string sState;
+        static string sUserState;
+
+        static int SState2NState(string sState)
+        {
+            int nState = 0;
+
+            for (int i = 0; i < 6; ++i)
+            {
+                if (sState[i] == 'R')
+                {
+                    nState += (1 << (2 - i));
+                }
+            }
+            
+            return nState;
+        }
+
+        static string NState2SState(int nState)
+        {
+            string r = null;
+
+            for (int i = 0; i < 3; ++i)
+            {
+                if ((nState & (1 << (2 - i))) != 0)
+                {
+                    r += "Red";
+                }
+                else if ((nState & (1 << (2 - i))) != 1 && (nState & (1 << (2 - i))) != 0)
+                {
+                    r += "Blue";
+                }
+                else
+                {
+                    r += "Gray";
+                }
+            }
+
+            return (r);
+        }
+        static void DFS()
+        {
+            bool[] visited = new bool[lGraph.Length];
+
+            DFSUtil(nState, visited);
+        }
+
+        static void DFSUtil(int v, bool[] visited)
+        {
+            while (!bWaitingForMove) ;
+
+            visited[v] = true;
+
+            sUserState = NState2SState(v);
+
+            lock (lockObject)
+            {
+                bWaitingForMove = false;
+            }
+
+            int[] thisStateList = lGraph[v];
+            if (thisStateList != null)
+            {
+                foreach (int n in thisStateList)
+                {
+                    if (!visited[n])
+                    {
+                        DFSUtil(n, visited);
+                    }
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
 
