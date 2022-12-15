@@ -54,31 +54,31 @@ namespace Final_Exam
         }
 
         //Quesstion 3
-        static bool[,] mGraph = new bool[,]
+        static int[,] mGraph = new int[,]
         {
                             //Red     Blue     Yellow     Gray     Light Blue     Orange     Purple     Green
-            /* Red */       {false    ,true    ,false     ,true    ,false         ,false     ,false     ,false},
-            /* Blue */      {false    ,false   ,true      ,false   ,true          ,false     ,false     ,false},
-            /* Yellow */    {false    ,false   ,false     ,false   ,false         ,false     ,false     ,true },
-            /* Gray */      {false    ,false   ,false     ,false   ,true          ,true      ,false     ,false},
-            /* Light Blue */{false    ,true    ,false     ,true    ,false         ,false     ,false     ,false},
-            /* Orange */    {false    ,false   ,false     ,false   ,false         ,false     ,true      ,false},
-            /* Purple */    {false    ,false   ,true      ,false   ,false         ,false     ,false     ,false},
-            /* Green */     {false    ,false   ,false     ,false   ,false         ,false     ,false     ,false},
+            /* Red */       {-1       ,1       ,-1        ,5       ,-1            ,-1        ,-1        ,-1},
+            /* Blue */      {-1       ,-1      ,8         ,-1      ,1             ,-1        ,-1        ,-1},
+            /* Yellow */    {-1       ,-1      ,-1        ,-1      ,-1            ,-1        ,-1        ,6 },
+            /* Gray */      {-1       ,-1      ,-1        ,-1      ,0             ,1         ,-1        ,-1},
+            /* Light Blue */{-1       ,1       ,-1        ,0       ,-1            ,-1        ,-1        ,-1},
+            /* Orange */    {-1       ,-1      ,-1        ,-1      ,-1            ,-1        ,1         ,-1},
+            /* Purple */    {-1       ,-1      , 1        ,0       ,-1            ,-1        ,-1        ,-1},
+            /* Green */     {-1       ,-1      ,-1        ,-1      ,-1            ,-1        ,-1        ,-1},
         };
 
         static int[][] lGraph = new int[][]
         {
-            /* Red */ new int[] {1, 3},
-            /* Blue */ new int[] {2, 4},
-            /* Yellow */ new int[] {7},
-            /* Gray */ new int[] {4, 5},
-            /* Light Blue */ new int[] {1, 3},
-            /* Orange */ new int[] {6},
-            /* Purple */ new int[] {2},
+            /* Red */ new int[] {1, 5},
+            /* Blue */ new int[] {8, 1},
+            /* Yellow */ new int[] {6},
+            /* Gray */ new int[] {0, 1},
+            /* Light Blue */ new int[] {1, 0},
+            /* Orange */ new int[] {1},
+            /* Purple */ new int[] {1},
             /* Green */ null,
         };
-
+    
         //Question 4
 
         static bool bWaitingForMove = false;
